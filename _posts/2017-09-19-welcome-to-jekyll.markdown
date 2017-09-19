@@ -1,5 +1,5 @@
 ---
-layout: {{site.title}}
+layout: "Sonoda"
 title:  "Welcome to Sonoda's webpage!!"
 date:   2017-09-19 21:18:45 +0000
 categories: jekyll update
