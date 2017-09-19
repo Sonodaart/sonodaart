@@ -17,7 +17,7 @@ title: Sonoda
 ######email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
   Actually only a page but in progress!! ^^
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://sonodaart.github.io/sonodaart/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 ##twitter_username: jekyllrb
 ##github_username:  jekyll
