@@ -15,4 +15,5 @@ body {
 	width: 100%;
 	padding: 10px;
 	background: url("http://i.imgur.com/VETXUOs.jpg");
+	background-size: cover;
 }
