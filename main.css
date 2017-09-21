@@ -1,11 +1,12 @@
-.options {
+.project {
 	font-family: Palatino, 'Palatino Linotype', serif;
-	color: red;
+	color: light-blue;
+	text-align: center;
 }
 
 #goto {
  font-family: Palatino, 'Palatino Linotype', serif;
- color: green;
+ color: white;
 }
 
 
