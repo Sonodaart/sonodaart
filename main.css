@@ -1,9 +1,9 @@
-.all.options h1{
+.options {
  font-family: Palatino, 'Palatino Linotype', serif;
  color: black;
 }
 
-.all.project h1 {
+.project {
  font-family: Palatino, 'Palatino Linotype', serif;
  color: blue;
  text-align: center;
