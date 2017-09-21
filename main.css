@@ -1,12 +1,17 @@
-h1 {
+.options h1{
+ font-family: Palatino, 'Palatino Linotype', serif;
+ color: black
+}
+
+.project h1 {
  font-family: Palatino, 'Palatino Linotype', serif;
  color: blue
+ text-align: center;
 }
 
 
 body {
 	height: 100%;
 	margin: 0;
-	text-align: center;
 	width: 100%;
 }
