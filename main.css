@@ -5,11 +5,11 @@
 	background: url("http://i.imgur.com/VETXUOs.jpg");
 	background-size: cover;
 	padding-left: 30px;
-  	min-width: 78%;
+  	min-width: 82%;
 }
 
 .options{
-	max-width: 22%;
+	max-width: 18%;
   	min-width: 90px;
   	flex: 1;
 
