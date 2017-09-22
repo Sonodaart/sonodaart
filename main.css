@@ -1,8 +1,8 @@
-.project {
+.project.introduction {
 	font-family: Palatino, 'Palatino Linotype', serif;
 	color: lime;
 	text-align: center;
-	background: url("http://i.imgur.com/VETXUOs.jpg");
+
 	/*background-size: cover;*/
 
 }
@@ -13,6 +13,7 @@
 
 
 .project.blog{
+	font-family: serif;
 	color: write;
 	text-align: left;
 	/*background-color: white;*/
@@ -30,6 +31,7 @@
 body {
 	height: 100%;
 	margin: 0;
+	background: url("http://i.imgur.com/VETXUOs.jpg");
 	/*width: 100%;
 	padding: 10px;*/
 	
