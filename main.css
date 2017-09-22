@@ -4,6 +4,7 @@
 	text-align: center;
 	background: url("http://i.imgur.com/VETXUOs.jpg");
 	background-size: cover;
+	max-width: 82%
 }
 
 .options{
