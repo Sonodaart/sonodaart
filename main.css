@@ -4,14 +4,11 @@
 	text-align: center;
 	background: url("http://i.imgur.com/VETXUOs.jpg");
 	background-size: cover;
-	padding-left: 30px;
-  	min-width: 82%;
+
 }
 
 .options{
-  	max-width: 18%;
- 	min-width: 90;
-  	flex: 1;
+  	text.align: center;
 
 }
 
@@ -28,6 +25,6 @@ body {
 	margin: 0;
 	width: 100%;
 	padding: 10px;
-	display: flex
+
 	
 }
