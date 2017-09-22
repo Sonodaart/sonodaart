@@ -3,7 +3,7 @@
 	color: lime;
 	text-align: center;
 	background: url("http://i.imgur.com/VETXUOs.jpg");
-	background-size: cover;
+	#background-size: cover;
 
 }
 
@@ -14,8 +14,8 @@
 
 .project.blog{
 	font-family: Serif;
-	background-color: white;
-	background-size: cover;
+	color: write;
+
 
 }
 
@@ -29,8 +29,8 @@
 body {
 	height: 100%;
 	margin: 0;
-	width: 100%;
-	padding: 10px;
+	#width: 100%;
+	#padding: 10px;
 	
 	
 }
