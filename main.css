@@ -1,7 +1,7 @@
 .project {
 	font-family: Palatino, 'Palatino Linotype', serif;
 	color: lime;
-	
+	text-align: center;
 	background: url("http://i.imgur.com/VETXUOs.jpg");
 	background-size: cover;
 
@@ -11,6 +11,13 @@
 	text-align: center;
 }
 
+
+.blog{
+	font-family: Serif;
+	background-color: white;
+	background-size: cover;
+
+}
 
 
 #goto {
@@ -24,6 +31,6 @@ body {
 	margin: 0;
 	width: 100%;
 	padding: 10px;
-	text-align: center;
+	
 	
 }
