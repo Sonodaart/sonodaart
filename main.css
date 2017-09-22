@@ -1,14 +1,13 @@
 .project {
 	font-family: Palatino, 'Palatino Linotype', serif;
 	color: lime;
-	text-align: center;
+	
 	background: url("http://i.imgur.com/VETXUOs.jpg");
 	background-size: cover;
 
 }
 
 .options{
-  	text.align: center;
 
 }
 
@@ -25,6 +24,6 @@ body {
 	margin: 0;
 	width: 100%;
 	padding: 10px;
-
+	text-align: center;
 	
 }
