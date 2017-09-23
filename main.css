@@ -1,4 +1,4 @@
-#introduction {
+.project .introduction {
 	color: white;
 	font-family: Palatino, 'Palatino Linotype', serif;
 	color: lime;
@@ -13,7 +13,7 @@
 }
 
 
-#blog{
+.project .blog{
 	font-family: serif;
 	/*color: white;*/
 	text-align: left;
