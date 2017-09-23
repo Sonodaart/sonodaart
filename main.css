@@ -45,6 +45,10 @@ li a:hover {
 
 }
 
+#abp {
+	color: white
+}
+
 .project .blog{
 	font-family: serif;
 	/*color: white;*/
