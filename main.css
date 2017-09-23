@@ -10,8 +10,8 @@
 
 .options{
 	text-align: center;
+	float: left
 }
-
 
 .project .blog{
 	font-family: serif;
@@ -21,13 +21,6 @@
 
 
 }
-
-
-#goto {
- font-family: Palatino, 'Palatino Linotype', serif;
- color: black;
-}
-
 
 .project {
 	max-height: 100%;
