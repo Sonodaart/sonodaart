@@ -32,7 +32,7 @@ li a:hover {
 	text-decoration: none;
 	text-align: center;
 	background: black;
-	float: left;
+	float: center;
 }
 
 .project .introduction {
@@ -63,7 +63,6 @@ li a:hover {
 	margin: 0px;
 	padding: 0px;
 	background-size: cover;
-	text-align: down;
 	
 	
 }
