@@ -18,7 +18,8 @@ a:link {
 	text-align: center;
 	background-color: black;
 	color: white;
-	float: left
+	float: left;
+	padding: 16px
 }
 
 .project .blog{
