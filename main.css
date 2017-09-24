@@ -32,7 +32,6 @@ li a:hover {
 	text-decoration: none;
 	text-align: center;
 	background: black;
-	float: center;
 }
 
 .testo .introduction {
@@ -71,7 +70,6 @@ li a:hover {
 .copyright {
 	color: white;
 	background-color: black;
-	text-align: center;
 	background-size: cover;
 	
 }
