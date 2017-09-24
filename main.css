@@ -63,7 +63,9 @@ li a:hover {
 	background: url("http://i.imgur.com/VETXUOs.jpg");
 	/*width: 100%;
 	padding: 10px;*/
-	background-size: cover;	
+	background-size: cover;
+	margin: 10px;
+	float: left
 	/*background-color: #00FFFF*/
 }
 
