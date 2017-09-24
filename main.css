@@ -60,11 +60,17 @@ li a:hover {
 
 .testo {
 	max-height: 100%;
-	/*background: url("http://i.imgur.com/VETXUOs.jpg");*/
+	background: url("http://i.imgur.com/VETXUOs.jpg");
 	/*width: 100%;
 	padding: 10px;*/
 	background-size: cover;	
-	background-color: #00FFFF
+	/*background-color: #00FFFF*/
 }
 
-
+.copyright {
+	color: white;
+	background-color: black;
+	text-align: center;
+	background-size: cover
+	
+}
