@@ -1,18 +1,9 @@
-/*a:link {
-    color: white; 
-    background-color: transparent; 
-
-}
-ul {
+/*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-
-li {
-    float: left;
+    
+    
 }
 
 li a {
@@ -26,17 +17,21 @@ li a {
 li a:hover {
     background-color: #111111;
 }*/
-
-.corpo .introduction {
-	font-family: Palatino, 'Palatino Linotype', serif;
-	text-align: center;
-}
-
 .navigazione {
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	background: black;
+	float: left;
+	background-color: #333333;
+	overflow: hidden;
+	color: white; 
+	background-color: transparent; 
+}
+
+.corpo .introduction {
+	font-family: Palatino, 'Palatino Linotype', serif;
+	text-align: center;
 }
 
 .corpo {
