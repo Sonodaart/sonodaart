@@ -1,4 +1,4 @@
-a:link {
+/*a:link {
     color: white; 
     background-color: transparent; 
 
@@ -25,46 +25,27 @@ li a {
 
 li a:hover {
     background-color: #111111;
+}*/
+
+.testo .introduction {
+	font-family: Palatino, 'Palatino Linotype', serif;
+	text-align: center;
 }
 
-.options{
+.navigazione {
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	background: black;
 }
 
-.testo .introduction {
-	color: white;
-	font-family: Palatino, 'Palatino Linotype', serif;
-	color: lime;
-	text-align: center;
-
-	/*background-size: cover;*/
-
-}
-
-#abp {
-	color: black
-}
-
-.testo .blog{
-	font-family: serif;
-	/*color: white;*/
-	text-align: left;
-
-
-
-}
-
-.testo {
+.corpo {
 	max-height: 100%;
 	background: url("http://i.imgur.com/VETXUOs.jpg");
-	/*width: 100%;
-	padding: 10px;*/
 	background-size: cover;
 	margin: 10px;
-	/*background-color: #00FFFF*/
+	font-family: serif;
+	text-align: left;
 }
 
 .copyright {
@@ -72,5 +53,5 @@ li a:hover {
 	background-size: cover;
 	padding: 20px 0;
 	display: flex;
-  	justify-content: flex-end;
+	flex: left
 }
