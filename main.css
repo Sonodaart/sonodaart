@@ -70,6 +70,7 @@ li a:hover {
 .copyright {
 	color: white;
 	background-color: black;
+	font-size: 12px;
 	background-size: cover;
-	text-align: left
+	padding: 20px 0;
 }
