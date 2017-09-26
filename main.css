@@ -21,17 +21,7 @@ li a {
 li a:hover {
     background-color: #111111;
 }
-.navigazione {
-	display: float;
-	float: left;
-	text-decoration: none;
-	text-align: center;
-	background: black;
-	float: left;
-	background-color: #333333;
-	color: white; 
-	text-decoration: none;
-}
+
 
 .corpo .introduction {
 	font-family: Palatino, 'Palatino Linotype', serif;
