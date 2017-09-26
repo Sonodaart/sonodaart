@@ -22,12 +22,6 @@ li a:hover {
     background-color: #111111;
 }
 
-
-.corpo .introduction {
-	font-family: Palatino, 'Palatino Linotype', serif;
-	text-align: center;
-}
-
 .corpo {
 	max-height: 100%;
 	background: url("http://i.imgur.com/VETXUOs.jpg");
@@ -35,6 +29,11 @@ li a:hover {
 	margin: 10px;
 	font-family: serif;
 	text-align: left;
+}
+
+.corpo .introduction {
+	font-family: Palatino, 'Palatino Linotype', serif;
+	text-align: center;
 }
 
 .copyright {
