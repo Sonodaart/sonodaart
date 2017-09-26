@@ -68,9 +68,9 @@ li a:hover {
 }
 
 .copyright {
-	color: white;
-	background-color: black;
 	font-size: 12px;
 	background-size: cover;
 	padding: 20px 0;
+	display: flex;
+  	justify-content: flex-end;
 }
