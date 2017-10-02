@@ -89,15 +89,17 @@
 	<br>
 	<br>
 	<div class="algorithm">
-		F<sub>elastica</sub>:<input type="number" name="Fe" min="0" id="Fe" placeholder="Forza elastica">N
-		<br><br>
-		K:<input type="number" name="K" id="K" min="0" placeholder="costante di allungamento">N/m
-		<br><br>
-		x:<input type="number" name="x" id="x" min="0" placeholder="allungamento">m
-		<br><br>
-		<input type="submit" value="try->" onclick="forzaElastica()" onmouseover="this.style.color='red'">
-		<br><br>
-		<p id="result2">result here</p>
+		<form action="forzaElastica()">
+			F<sub>elastica</sub>:<input type="number" name="Fe" min="0" id="Fe" placeholder="Forza elastica">N
+			<br><br>
+			K:<input type="number" name="K" id="K" min="0" placeholder="costante di allungamento">N/m
+			<br><br>
+			x:<input type="number" name="x" id="x" min="0" placeholder="allungamento">m
+			<br><br>
+			<input type="submit" value="try->" onclick="forzaElastica()" onmouseover="this.style.color='red'">
+			<br><br>
+			<p id="result2">result here</p>
+		</form>
 		<br>
 	</div>
  
