@@ -11,6 +11,22 @@
 			}
 		}
 		
+		function forzaElastica() {
+			k = document.getElementById("K").value;
+			x = document.getElementById("x").value;
+			Fe = document.getElementById("Fe").value;
+			if (k != "" && x != "") {
+			document.getElementById("result2").innerHTML = k*x + "N"
+			} 
+			else if (Fe != "") {
+			if (k != "") {document.getElementById("result2").innerHTML = Fe/k + "m"}
+			
+			else if (x != "") {document.getElementById("result2").innerHTML = Fe/x + "N/m"}
+			}
+			else {document.getElementById("result2").innerHTML = You have to fill 2 variables.}
+		
+		}
+		
 
 	</script>
 	<style>
@@ -65,7 +81,16 @@
 	<br>
 	<br>
 	<div class="algorithm">
-		<h1>Coming Soon...</h1>
+		<p>F<sub>elastica</sub>:</p>
+		<input type="number" name="Fe" min="0" id="Fe" placeholder="Forza elastica">N<br>
+		<p>K:</p>
+		<input type="number" name="K" id="K" min="0" placeholder="costante di allungamento"><p>N/m<br>
+		<p>x:</p>
+		<input type="number" name="x" id="x" min="0" placeholder="allungamento">m
+		<br>
+		<input type="button" name="submit" value="try->" onclick="forzaElastica()" onmouseover="this.style.color='red'">
+		<p id="result2"></p>
+		<br>
 	</div>
  
 <script>
