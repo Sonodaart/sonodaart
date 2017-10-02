@@ -12,7 +12,7 @@
 		}
 		
 		function forzaElastica() {
-			k = document.getElementById("K").value;
+			document.write(document.getElementById("K").value);
 			x = document.getElementById("x").value;
 			Fe = document.getElementById("Fe").value;
 			document.write(k);
@@ -90,7 +90,7 @@
 		<br><br>
 		x:<input type="number" name="x" id="x" min="0" placeholder="allungamento">m
 		<br><br>
-		<input type="button" name="submit" value="try->" onclick="forzaElastica()" onmouseover="this.style.color='red'">
+		<input type="button" type="submit" name="submit" value="try->" onclick="forzaElastica()" onmouseover="this.style.color='red'">
 		<br><br>
 		<p id="result2">result here</p>
 		<br>
