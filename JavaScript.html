@@ -12,27 +12,17 @@
 		}
 		
 		function forzaElastica() {
-			k =document.getElementById("K").value;
-			x = document.getElementById("x").value;
-			Fe = document.getElementById("Fe").value;
-			document.write(k);
-			document.write(x);
-			document.write(Fe);
-			try{
-			if (k != "" && x != "") {
-			document.write = k*x + "N";
-			} 
-			else if (Fe != "") {
-			if (k != "") {document.getElementById("result2").innerHTML = Fe/k + "m";}
+			k = Number(document.getElementById("K").value);
+			x = Number( document.getElementById("x").value);
+			Fe = Number(document.getElementById("Fe").value);
+				if (x != "" && k != ""){document.getElementById("result2").innerHTML = x*k + "N";}
+				else if (Fe != ""){
+					if(k == "" && x != ""){document.getElementById("result2").innerHTML = Fe/x + "N/m";}
+					else if (x == "" && k != ""){document.getElementById("result2").innerHTML = Fe/k + "m";}
+					else{document.getElementById("result2").innerHTML = "No data has been entered.";}
+				}
+				else{document.getElementById("result2").innerHTML = "No data has been entered.";}
 			
-			else if (x != "") {document.getElementById("result2").innerHTML = Fe/x + "N/m";}
-			}
-			else {document.getElementById("result2").innerHTML = You have to fill 2 variables.;}
-			}
-			catch(err) {
-        		message.innerHTML = "Input is " + err;
-    			}
-		
 			}
 		
 
