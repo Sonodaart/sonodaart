@@ -1,0 +1,29 @@
+.options{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: black,
+  float: center;
+}
+
+a: link {
+  color: white;
+  background-color: transparent;
+}
+
+ul {
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 16px;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
