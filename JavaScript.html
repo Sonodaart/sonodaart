@@ -15,13 +15,10 @@
 			k = Number(document.getElementById("K").value);
 			x = Number( document.getElementById("x").value);
 			Fe = Number(document.getElementById("Fe").value);
-				if (x != "" && k != ""){document.getElementById("result2").innerHTML = x*k + "N";
-						       document.getElementById("what").innerHTML = "Fe= "}
+				if (x != "" && k != ""){document.getElementById("result2").innerHTML ="Fe= " + +x*+k + "N";}
 				else if (Fe != ""){
-					if(k == "" && x != ""){document.getElementById("result2").innerHTML = Fe/x + "N/m";
-							      document.getElementById("what").innerHTML = "K= "}
-					else if (x == "" && k != ""){document.getElementById("result2").innerHTML = Fe/k + "m";
-								    document.getElementById("what").innerHTML = "x= "}
+					if(k == "" && x != ""){document.getElementById("result2").innerHTML ="K= " + +Fe/+x + "N/m";}
+					else if (x == "" && k != ""){document.getElementById("result2").innerHTML ="x= " + +Fe/+k + "m";}
 					else{document.getElementById("result2").innerHTML = "No data has been entered.";}
 				}
 				else{document.getElementById("result2").innerHTML = "No data has been entered.";}
@@ -68,7 +65,7 @@
 	<ul>
 		<li><a href="index.html">Home</a></li>
 		<li><a href="News.html">News</a></li>
-		<li><a href="ArtWorks.html">ArtWorks</a></li>
+		<li><a href="Artworks.html">Artworks</a></li>
 	</ul>
 	<br>
 	<div class="algorithm">
