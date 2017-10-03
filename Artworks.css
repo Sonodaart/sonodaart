@@ -1,20 +1,21 @@
-.options{
-  display: block;
-  text-align: center;
+.options {
+	display: block;
+  text-align:center;
   text-decoration: none;
   background: black;
-  float: center;
-}
+  float: center
 
-a: link {
+}
+a:link {
   color: white;
   background-color: transparent;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-
   background-color: #333333;
 }
 
@@ -22,15 +23,14 @@ li {
   float: left;
 }
 
-li a {
-  display: block;
-  text-decoration: none;
-  text.align: center;
+li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
   color: white;
-
+  padding: 16px
 }
 
-li a:hover {
-  background-color: #111111;
+li a:hover{
+  background-color: #111111
 }
-
