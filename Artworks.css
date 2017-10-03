@@ -12,6 +12,8 @@ a: link {
 }
 
 ul {
+  list-style-type: none;
+  overflow: hidden;
   background-color: #333333;
 }
 
@@ -21,6 +23,8 @@ li {
 
 li a {
   display: block;
+  text-decoration: none;
+  text.align: center;
   color: white;
   padding: 16px;
 }
