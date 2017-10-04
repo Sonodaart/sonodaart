@@ -36,5 +36,6 @@ li a:hover{
 }
 
 .article {
-	background-color: white
+	background-color: white;
+	padding: 10px;
 }
