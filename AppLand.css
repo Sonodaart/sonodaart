@@ -7,8 +7,8 @@
 
 }
 a:link {
-  color: red;
-  background-color: blue;
+  color: white;
+  background-color: transparent;
 }
 
 ul {
@@ -27,7 +27,7 @@ li a{
 	display: block;
 	text-align: center;
 	text-decoration: none;
-  color: white;
+  color: blue;
   padding: 16px
 }
 
